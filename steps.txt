@@ -1,0 +1,19 @@
+1. Streamlit (Done)
+2. pypdf2  (Done)  for splitting, merging, cropping, and transforming the pages of PDF files
+3. langchain  (Done)
+4. python-dotenv  (Done)
+5. faiss-cpu  (Done)  for  Faiss offers optimized solutions for high-performance vector operations .
+6. openai  (Done)  LLM (paid)
+7. huggingface_hub  (Done)  LLm (open sourse)
+
+
+
+Step 1:- we will extract the text from the pdf file in the form of huge string.
+
+Step 2:- The data extracted from here will now be broken into small chunks.
+
+Step 3:- Now we will embed the chunks (Basically the vector natation of each chunk) and the vector notation will also include the meaning.
+
+Step 4:- Now we will store the vectors into a vector database.
+
+Step 5:-
